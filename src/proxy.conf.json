@@ -1,0 +1,11 @@
+{
+  "/api": {
+    "target": "https://manavillages.com/v1/public/api/v1/",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug",
+     "pathRewrite": {
+      "^/api": ""
+    }
+  }
+}
