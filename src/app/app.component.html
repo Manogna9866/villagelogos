@@ -1,6 +1,6 @@
 <section class="hero">
   <div class="welcome-wrapper text-center">
-    <h1 class="welcome-text">WELCOME ManaVillages</h1>
+    <h1 class="welcome-text nav-link">WELCOME ManaVillages</h1>
 
   </div>
   <a [href]="websiteLink"  rel="noopener noreferrer" class="nav-link">
@@ -10,7 +10,7 @@
           <img *ngIf="vill.village_logo" [src]="'https://manavillages.com/v1/public/' + vill.village_logo"
             alt="Village Logo" width="100%"  class="village-logo" />
           <div *ngIf="websiteLink" class="village-title">
-            <div class="village-title nav-link">{{ vill.village_name | uppercase }}</div>
+            <div class="village-title nav-link text-success">{{ vill.village_name | uppercase }}</div>
           </div>
         </div>
       </div>
